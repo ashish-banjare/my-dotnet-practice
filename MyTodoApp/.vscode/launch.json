@@ -1,0 +1,19 @@
+{
+      // Use IntelliSense to learn about possible attributes.
+      // Hover to view descriptions of existing attributes.
+      // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+      "version": "0.2.0",
+      "configurations": [
+            {
+                  "name": "My Todo App(console)",
+                  "type": "coreclr",
+                  "request": "launch",
+                  "preLaunchTask": "build",
+                  "program": "/var/www/html/DotNet/MyTodoApp/application/bin/Debug/net8.0/application.dll",
+                  "args": [],
+                  "cwd": "${workspaceFolder}",
+                  "stopAtEntry": false,
+                  "console": "integratedTerminal"
+            }
+      ]
+}
